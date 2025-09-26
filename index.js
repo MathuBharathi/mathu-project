@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 10000; // Render provides PORT automatically
 
 app.get("/", (req, res) => {
-  res.send("Hello from Render!");
+  res.send("I'm Mathubharathi");
 });
 
 app.listen(PORT, () => {
